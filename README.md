@@ -1,3 +1,5 @@
+Important Note: This is a prototype - real version written in .NET 10 
+
 ## Overview
 
 This is a single-box GPS telemetry system that ingests 10 Hz GPS fixes from an Adafruit Ultimate GPS module, parses the raw NMEA stream, derives motorsports-relevant channels (speed, heading, position), and logs them to disk for post-session analysis — with optional live streaming to a UI client.
